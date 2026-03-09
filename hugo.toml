@@ -1,0 +1,39 @@
+baseURL = 'https://WangFeng-AHU.github.io/'
+languageCode = 'zh-cn'
+title = "Feng's Blog"
+theme = 'PaperMod'
+
+[params]
+  env = "production"
+  title = "Home"
+  description = "Things that need to be written."
+  author = "Wang Feng"
+  
+  # 启用社交链接
+  socialIcons = [
+    { name = "github", url = "https://github.com/WangFeng-AHU" },
+    { name = "twitter", url = "https://x.com/PryzB85880" }
+  ]
+  
+  # 启用目录
+  ShowToc = true
+  TocOpen = true
+  
+  # 显示阅读时间
+  ShowReadingTime = true
+  # 显示分享按钮
+  ShowShareButtons = true
+  # 显示帖子访问量
+  ShowPostNavLinks = true
+  
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
